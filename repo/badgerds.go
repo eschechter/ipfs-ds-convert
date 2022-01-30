@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	badgerds "github.com/ipfs/go-ds-badger"
+	badgerds "github.com/eschechter/go-ds-badger"
 )
 
 type badgerdsDatastoreConfig struct {
