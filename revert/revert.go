@@ -7,11 +7,11 @@ import (
 
 	logging "log"
 
-	"github.com/ipfs/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/repo"
 
 	"encoding/json"
 	lock "github.com/ipfs/go-fs-lock"
-	"github.com/ipfs/ipfs-ds-convert/config"
+	"github.com/eschechter/ipfs-ds-convert/config"
 	"github.com/pkg/errors"
 	"io/ioutil"
 )
