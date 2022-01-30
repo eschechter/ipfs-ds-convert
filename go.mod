@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/ipfs/go-datastore v0.4.6
-	github.com/eschechter/go-ds-badger master
+	github.com/eschechter/go-ds-badger my-changes
 	github.com/ipfs/go-ds-flatfs v0.4.5
 	github.com/ipfs/go-ds-leveldb v0.4.2
 	github.com/ipfs/go-ds-measure v0.1.0
