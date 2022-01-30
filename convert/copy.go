@@ -8,10 +8,10 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/ipfs/ipfs-ds-convert/config"
-	"github.com/ipfs/ipfs-ds-convert/repo"
-	"github.com/ipfs/ipfs-ds-convert/revert"
-	"github.com/ipfs/ipfs-ds-convert/strategy"
+	"github.com/eschechter/ipfs-ds-convert/config"
+	"github.com/eschechter/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/revert"
+	"github.com/eschechter/ipfs-ds-convert/strategy"
 
 	ds "github.com/ipfs/go-datastore"
 	dsq "github.com/ipfs/go-datastore/query"
