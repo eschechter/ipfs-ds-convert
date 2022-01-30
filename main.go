@@ -4,9 +4,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/ipfs/ipfs-ds-convert/convert"
-	"github.com/ipfs/ipfs-ds-convert/repo"
-	"github.com/ipfs/ipfs-ds-convert/revert"
+	"github.com/eschechter/ipfs-ds-convert/convert"
+	"github.com/eschechter/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/revert"
 	homedir "github.com/mitchellh/go-homedir"
 
 	cli "github.com/urfave/cli"
