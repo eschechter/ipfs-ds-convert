@@ -8,9 +8,9 @@ import (
 
 	logging "log"
 
-	"github.com/ipfs/ipfs-ds-convert/repo"
-	"github.com/ipfs/ipfs-ds-convert/revert"
-	"github.com/ipfs/ipfs-ds-convert/strategy"
+	"github.com/eschechter/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/revert"
+	"github.com/eschechter/ipfs-ds-convert/strategy"
 
 	lock "github.com/ipfs/go-fs-lock"
 )

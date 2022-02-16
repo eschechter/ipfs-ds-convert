@@ -1,8 +1,9 @@
-module github.com/ipfs/ipfs-ds-convert
+module github.com/eschechter/ipfs-ds-convert
 
 go 1.14
 
 require (
+	github.com/dgraph-io/badger/v2 v2.2007.3
 	github.com/ipfs/go-datastore v0.4.5
 	github.com/ipfs/go-ds-badger v0.2.6
 	github.com/ipfs/go-ds-badger2 v0.1.1-0.20201009224942-a4499bb2f243

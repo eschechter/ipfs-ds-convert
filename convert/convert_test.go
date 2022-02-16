@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/config"
+	"github.com/eschechter/ipfs-ds-convert/config"
 
-	convert "github.com/ipfs/ipfs-ds-convert/convert"
-	testutil "github.com/ipfs/ipfs-ds-convert/testutil"
+	convert "github.com/eschechter/ipfs-ds-convert/convert"
+	testutil "github.com/eschechter/ipfs-ds-convert/testutil"
 )
 
 func TestConvertAll(t *testing.T) {

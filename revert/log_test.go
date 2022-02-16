@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/revert"
+	"github.com/eschechter/ipfs-ds-convert/revert"
 )
 
 func TestNewActionLogger(t *testing.T) {

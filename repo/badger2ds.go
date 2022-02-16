@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-
+	options "github.com/dgraph-io/badger/v2/options"
 	badger2ds "github.com/ipfs/go-ds-badger2"
 )
 
@@ -58,6 +58,17 @@ func (c *badger2dsDatastoreConfig) Create(path string) (Datastore, error) {
 
 	defopts := badger2ds.DefaultOptions
 	defopts.SyncWrites = c.syncWrites
+	defopts.MaxTableSize = 256 << 20
+	defopts.ValueLogFileSize = 64 << 20
+	defopts.TableLoadingMode = options.FileIO
+	defopts.ValueLogLoadingMode = options.FileIO
+	defopts.LoadBloomsOnOpen = false
+	defopts.NumMemtables = 1
+	defopts.IndexCacheSize = 2000 << 20
+	defopts.NumLevelZeroTables = 1
+	defopts.NumLevelZeroTablesStall = 2
+	defopts.KeepL0InMemory = false
+	defopts.CompactL0OnClose = false
 
 	return badger2ds.NewDatastore(p, &defopts)
 }

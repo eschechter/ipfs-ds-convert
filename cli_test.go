@@ -4,7 +4,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/testutil"
+	"github.com/eschechter/ipfs-ds-convert/testutil"
 	"os"
 )
 

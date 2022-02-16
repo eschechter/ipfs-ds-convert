@@ -3,7 +3,7 @@ package strategy
 import (
 	"fmt"
 
-	"github.com/ipfs/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/repo"
 
 	ds "github.com/ipfs/go-datastore"
 	errors "github.com/pkg/errors"

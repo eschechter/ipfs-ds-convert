@@ -3,7 +3,7 @@ package strategy
 import (
 	"encoding/json"
 
-	"github.com/ipfs/ipfs-ds-convert/config"
+	"github.com/eschechter/ipfs-ds-convert/config"
 
 	"github.com/pkg/errors"
 )

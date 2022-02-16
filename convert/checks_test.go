@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/convert"
-	"github.com/ipfs/ipfs-ds-convert/repo"
-	"github.com/ipfs/ipfs-ds-convert/revert"
-	"github.com/ipfs/ipfs-ds-convert/testutil"
+	"github.com/eschechter/ipfs-ds-convert/convert"
+	"github.com/eschechter/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/revert"
+	"github.com/eschechter/ipfs-ds-convert/testutil"
 
 	lock "github.com/ipfs/go-fs-lock"
 )

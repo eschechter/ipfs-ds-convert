@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ipfs/ipfs-ds-convert/config"
-	"github.com/ipfs/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/config"
+	"github.com/eschechter/ipfs-ds-convert/repo"
 
 	"github.com/pkg/errors"
 )

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/strategy"
+	"github.com/eschechter/ipfs-ds-convert/strategy"
 )
 
 type testCase struct {

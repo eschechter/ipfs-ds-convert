@@ -3,7 +3,7 @@ package testutil_test
 import (
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/testutil"
+	"github.com/eschechter/ipfs-ds-convert/testutil"
 )
 
 func TestNewTestRepo(t *testing.T) {

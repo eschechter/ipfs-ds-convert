@@ -9,7 +9,7 @@ import (
 
 	"github.com/ipfs/go-ipfs/plugin/loader"
 
-	conf "github.com/ipfs/ipfs-ds-convert/config"
+	conf "github.com/eschechter/ipfs-ds-convert/config"
 
 	config "github.com/ipfs/go-ipfs-config"
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"

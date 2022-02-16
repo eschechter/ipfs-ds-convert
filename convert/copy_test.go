@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/ipfs-ds-convert/repo"
-	"github.com/ipfs/ipfs-ds-convert/testutil"
+	"github.com/eschechter/ipfs-ds-convert/repo"
+	"github.com/eschechter/ipfs-ds-convert/testutil"
 
 	ds "github.com/ipfs/go-datastore"
 )
