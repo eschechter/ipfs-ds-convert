@@ -64,7 +64,6 @@ func (c *badger2dsDatastoreConfig) Create(path string) (Datastore, error) {
 	defopts.ValueLogLoadingMode = options.FileIO
 	defopts.LoadBloomsOnOpen = false
 	defopts.NumMemtables = 1
-	defopts.IndexCacheSize = 2000 << 20
 	defopts.NumLevelZeroTables = 1
 	defopts.NumLevelZeroTablesStall = 2
 	defopts.KeepL0InMemory = false
