@@ -59,7 +59,6 @@ func (c *badger2dsDatastoreConfig) Create(path string) (Datastore, error) {
 	defopts := badger2ds.DefaultOptions
 	defopts.SyncWrites = c.syncWrites
 	defopts.MaxTableSize = 256 << 20
-	defopts.ValueLogFileSize = 64 << 20
 	defopts.TableLoadingMode = options.FileIO
 	defopts.ValueLogLoadingMode = options.FileIO
 	defopts.LoadBloomsOnOpen = false
