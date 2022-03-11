@@ -61,7 +61,7 @@ func (c *badger2dsDatastoreConfig) Create(path string) (Datastore, error) {
 	defopts.MaxTableSize = 256 << 20
 	defopts.TableLoadingMode = options.FileIO
 	defopts.ValueLogLoadingMode = options.FileIO
-	defopts.LoadBloomsOnOpen = false
+	defopts.LoadBloomsOnOpen = true
 	defopts.NumMemtables = 1
 	defopts.NumLevelZeroTables = 1
 	defopts.NumLevelZeroTablesStall = 2
